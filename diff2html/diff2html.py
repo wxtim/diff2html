@@ -138,7 +138,7 @@ def parse_args():
         help='Additional notes to be added below the title and subtitle.'
     )
     parser.add_argument(
-        '-o' '--output',
+        '-o', '--output',
         help='Output file path. If unset output will be printed to stdout.',
         dest='output'
     )
